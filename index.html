@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+    body {line-height: 1.6; background: #f4f4f9; color: #333;}
+    header {background: #222; color: #fff; padding: 20px 0; text-align: center;}
+    header h1 {font-size: 2.5rem;}
+    header p {font-size: 1.2rem; color: #aaa;}
+    nav {margin-top: 10px;}
+    nav a {color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold;}
+    nav a:hover {color: #f39c12;}
+    section {padding: 50px 20px; max-width: 1000px; margin: auto;}
+    h2 {margin-bottom: 20px; text-align: center; color: #222;}
+    .about, .projects, .contact {margin-bottom: 60px;}
+    .projects-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;}
+    .project {background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+    .project h3 {margin-bottom: 10px;}
+    .btn {display: inline-block; margin-top: 10px; padding: 10px 20px; background: #222; color: #fff; border-radius: 5px; text-decoration: none;}
+    .btn:hover {background: #f39c12;}
+    footer {text-align: center; padding: 20px; background: #222; color: #fff;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Engineering Student | Developer | Learner</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I’m [Your Name], an engineering student at UPES with a passion for 
+      software development, machine learning, and problem-solving. I enjoy building projects 
+      that combine creativity with technology.
+    </p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <h3>Fake News Detection</h3>
+        <p>Built a machine learning model using Logistic Regression with LIME explainability.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Travel Recommendation System</h3>
+        <p>Developed a tag-based recommendation engine for destinations like Goa, Paris, and Bali.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Sentiment Analysis</h3>
+        <p>Analyzed IMDB movie reviews using Logistic Regression to predict sentiment.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="resume">
+    <h2>Resume</h2>
+    <p style="text-align:center;">You can download my resume here:</p>
+    <div style="text-align:center;">
+      <a href="resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p style="text-align:center;">
+      📧 Email: your.email@example.com <br>
+      🔗 LinkedIn: <a href="#">linkedin.com/in/yourprofile</a> <br>
+      💻 GitHub: <a href="#">github.com/yourprofile</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
